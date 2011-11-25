@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Tools for my Blog
+author: Vanni Totaro
 ---
 
 I like **clean code**, **full control** and **modern tools**.
@@ -13,6 +14,6 @@ to [GitHub Pages](http://pages.github.com/), opening the door to these great too
 - [Bootstrap](http://twitter.github.com/bootstrap/), a toolkit to kickstart development of webapps and sites;
 - [Disqus](http://disqus.com), a global comment system that improves discussion on websites.
 
-So easy and enjoyable to use them together!
+It's so easy and enjoyable to use them together!
 
 If you're curious about it take a look at my [blog source code repository](https://github.com/vannitotaro/vannitotaro.github.com) on GitHub.

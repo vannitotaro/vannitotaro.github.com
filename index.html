@@ -4,8 +4,10 @@ title: Vanni Totaro's Blog
 ---
 
 <h2>Blog Posts <a href="http://feeds.feedburner.com/ingtotaro" title="Subscribe to my blog posts"><img src="/img/feed.png" width="48" height="48"></a></h2>
+<br>
 <ul>
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+{% include addthis.html %}

@@ -2,10 +2,14 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+{{ page.date | date_to_long_string }}
+<h2>{{ page.title }}
+<small>by {{ page.author }}</small></h2>
 <br>
 
 {{ content }}
+
+{% include addthis.html %}
 
 <br>
 <a href="http://feeds.feedburner.com/ingtotaro" title="Subscribe to my posts"><img src="/img/feed.png" width="48" height="48"></a>
