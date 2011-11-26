@@ -8,6 +8,7 @@ I like **clean code**, **full control** and **modern tools**.
 
 This is why I switched my blog from [Blogger](http://blogger.com)
 to [GitHub Pages](http://pages.github.com/), opening the door to these great tools:
+
 - [Jekyll](https://github.com/mojombo/jekyll), a blog-aware, static site generator;
 - [Markdown](http://daringfireball.net/projects/markdown/syntax), a text-to-HTML conversion tool for web writers;
 - [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers), a safe template language for flexible web apps;
