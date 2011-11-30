@@ -2,6 +2,10 @@ body {
   padding-top: 40px;
 }
 
+#aboutme-links img {
+  vertical-align: middle;
+}
+
 #nav-about {
     display: none;
 }
@@ -22,7 +26,6 @@ body {
     }
     #about {
         padding-top: 40px;
-        margin-top: -20px;
     }
     #nav-about {
         display: block;
