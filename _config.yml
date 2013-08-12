@@ -1,4 +1,7 @@
+# Jekyll options forced by GitHub Pages
 safe: true
+lsi: false
 pygments: true
-auto: true
+
+# My Jekyll options
 markdown: redcarpet
