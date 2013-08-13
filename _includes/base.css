@@ -2,7 +2,10 @@ body {
   padding-top: 40px;
 }
 
+.tag {
+  padding-top: 50px;
+}
+
 #aboutme-links img {
   vertical-align: middle;
 }
-

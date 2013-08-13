@@ -1,0 +1,22 @@
+---
+layout: default
+title: Vanni Totaro's Blog
+---
+
+<h2>Blog Posts by Tag</h2>
+<br>
+{% for tag_posts in site.tags %}
+  <p class="tag" id="tag-{{ tag_posts[0] }}">
+    <a href="/tags.html#tag-{{ tag_posts[0] }}"><span class="label label-info">#{{ tag_posts[0] }}</span></a>
+  </p>
+  <ul>
+  {% for post in tag_posts[1] %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo;
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+
+{% include share.html %}

@@ -7,7 +7,7 @@ layout: default
 <p class="muted"><small>Author: {{ page.author }}.</small></p>
 <p>
   {% for tag in page.tags %}
-    <span class="label label-info">#{{ tag }}</span>
+    <a href="/tags.html#tag-{{ tag }}"><span class="label label-info">#{{ tag }}</span></a>
   {% endfor %}
 </p>
 
