@@ -3,9 +3,8 @@ layout: default
 ---
 
 {{ page.date | date_to_long_string }}
-<h2>{{ page.title }}
-<small>by {{ page.author }}</small></h2>
-<br>
+<h2>{{ page.title }}</h2>
+<p class="muted"><small>Author: {{ page.author }}.</small></p>
 
 {{ content }}
 
