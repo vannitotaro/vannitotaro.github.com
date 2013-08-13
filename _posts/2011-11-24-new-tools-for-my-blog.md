@@ -2,6 +2,7 @@
 layout: post
 title: New Tools for my Blog
 author: Vanni Totaro
+tags: blog tools
 ---
 
 I like **clean code**, **full control** and **modern tools**.
