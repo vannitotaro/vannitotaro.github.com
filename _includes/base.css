@@ -6,28 +6,3 @@ body {
   vertical-align: middle;
 }
 
-#nav-about {
-    display: none;
-}
-
-@media only screen and (max-device-width: 480px) {
-    .container {
-        width: 100%;
-    }
-    .topbar-inner, .page-header {
-        padding-left: 10px;
-    }
-    #content, #about {
-        width: auto;
-        float: none;
-        display: block;
-        margin-left: 30px;
-        margin-right: 10px;
-    }
-    #about {
-        padding-top: 40px;
-    }
-    #nav-about {
-        display: block;
-    }
-}

@@ -2,3 +2,4 @@
 ---
 {% include bootstrap.min.css %}
 {% include base.css %}
+{% include bootstrap-responsive.min.css %}

@@ -5,7 +5,7 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="Programming, hacking, web startups and more.">
     <meta name="author" content="Giovanni (aka Vanni) Totaro">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="/css/all.css" rel="stylesheet">
     <link href="/atom.xml" type="application/atom+xml" rel="alternate"
@@ -19,13 +19,13 @@
   </head>
 
   <body>
-    <div class="topbar">
-      <div class="topbar-inner">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
         <div class="container">
           <a class="brand" href="/">Vanni Totaro</a>
           <ul class="nav">
-            <li><a href="/">Blog</a></li>
-            <li id="nav-about"><a href="#about">About</a></li>
+            <li><a href="/">Index of posts</a></li>
+            <li class="visible-phone"><a href="#about">About</a></li>
           </ul>
         </div>
       </div>
@@ -35,7 +35,7 @@
 
       <div class="page-header">
         <h1><small>Programming, hacking, web startups and more.</small></h1>
-        <img src="http://www.gravatar.com/avatar/669dba7d7f87659c2262975aafebcd7b?s=110"
+        <img src="http://www.gravatar.com/avatar/669dba7d7f87659c2262975aafebcd7b?s=80"
              alt="Vanni Totaro's Photo">
         <a href="http://www.asaclock.com" title="Anti-procrastination for startup founders">
           <img src="/img/asaclock.png" alt="asaclock logo">
@@ -44,10 +44,10 @@
       </div>
 
       <div class="row">
-        <div class="span11" id="content">
+        <div class="span8" id="content">
           {{ content }}
         </div>
-        <div class="span4 offset1" id="about">
+        <div class="span3 offset1" id="about">
           <h3>About me</h3>
           <p>Hi!</p>
           <p>
