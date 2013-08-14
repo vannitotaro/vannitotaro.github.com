@@ -5,12 +5,19 @@ title: Vanni Totaro's Blog
 
 <h2>Blog Posts by Tag</h2>
 <br>
-{% for tag_posts in site.tags %}
-  <p class="tag" id="tag-{{ tag_posts[0] }}">
-    <a href="/tags.html#tag-{{ tag_posts[0] }}"><span class="label label-info">#{{ tag_posts[0] }}</span></a>
+
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+{% for tag in sortedtags %}
+  <p class="tag" id="tag-{{ tag }}">
+    <a href="/tags.html#tag-{{ tag }}"><span class="label label-info">#{{ tag }}</span></a>
   </p>
   <ul>
-  {% for post in tag_posts[1] %}
+  {% for post in site.tags[tag] %}
     <li>
       <span>{{ post.date | date_to_string }}</span> &raquo;
       <a href="{{ post.url }}">{{ post.title }}</a>
