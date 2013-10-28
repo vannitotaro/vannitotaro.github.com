@@ -7,9 +7,9 @@
       {parsetags: 'explicit'}
     </script>
     <script type="text/javascript">
-      var profile = "http://plus.google.com/" + window.location.search.slice(4);
-      document.getElementById('badge-person').dataset.href = profile;
-      document.getElementById('badge-page').dataset.href = profile;
+      var profileID = "http://plus.google.com/" + window.location.hash.slice(1);
+      document.getElementById('badge-person').dataset.href = profileID;
+      document.getElementById('badge-page').dataset.href = profileID;
       gapi.person.go();
       gapi.page.go();
     </script>
