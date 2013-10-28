@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <body>
+    <div class="g-person" id="badge-person" data-layout="landscape" data-width="400"></div>
+    <div class="g-page" id="badge-page" data-layout="landscape" data-width="400"></div>
+    <script type="text/javascript" src="http://apis.google.com/js/plusone.js">
+      {parsetags: 'explicit'}
+    </script>
+    <script type="text/javascript">
+      var profile = "http://plus.google.com/" + window.location.search.slice(4);
+      document.getElementById('badge-person').dataset.href = profile;
+      document.getElementById('badge-page').dataset.href = profile;
+      gapi.person.go();
+      gapi.page.go();
+    </script>
+  </body>
+</html>
