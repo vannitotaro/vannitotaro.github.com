@@ -1,6 +1,6 @@
 <p>
   {% capture post_encoded_url %}{{ site.url | cgi_escape }}{{ page.url | cgi_escape }}{% endcapture %}
-<strong>Share this {% if page.url == '/index.html' %}blog{% else %}post{% endif %}!</strong><br>
+<strong>Share this {% if page.url == '/index.html' %}website{% else %}post{% endif %}!</strong><br>
   <a href="https://plus.google.com/share?url={{ post_encoded_url }}"
      target="_blank"><img src="/img/gplus.png" alt="Share this post on Google+"
      width="32" height="32"></a>
