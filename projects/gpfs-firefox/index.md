@@ -16,6 +16,8 @@ title: Google Plus Follower Stats for Firefox
 [Source code](https://github.com/vannitotaro/gpfs-firefox)
 available on GitHub.
 
+<div class="g-post" data-href="//plus.google.com/108482122724716372904/posts/NqnPHjp48xV"></div>
+
 <div class="g-post" data-href="//plus.google.com/108482122724716372904/posts/hznw2Xk7ryY"></div>
 
 <div class="g-post" data-href="//plus.google.com/108482122724716372904/posts/civeenMLpAw"></div>
