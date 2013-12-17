@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .badge-box {
+        position: relative;
+        height: 120px;
+      }
+      .loading {
+        position: absolute;
+        top: 48px;
+        z-index: -1;
+        font-family: sans-serif;
+        font-size: 14px;
+        color: silver;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="badges"></div>
+    <script type="text/javascript" src="http://apis.google.com/js/platform.js">
+      {parsetags: 'explicit'}
+    </script>
+    <script type="text/javascript">
+      var previousHash;
+
+      function updateBadges() {
+        var ids = window.location.hash.slice(1).split(','),
+            badgesHTML = '',
+            i;
+        for (i = 0; i < ids.length; i++) {
+          badgesHTML +=
+            '<div class="badge-box">' +
+              '<div class="loading">Loading Google+ badge...</div>' +
+              '<div class="g-person" data-href="//plus.google.com/' + ids[i] + '"' +
+                   'data-layout="landscape" data-width="350"></div>' +
+              '<div class="g-page" data-href="//plus.google.com/' + ids[i] + '"' +
+                   'data-layout="landscape" data-width="350"></div>' +
+            '</div>';
+        }
+        document.getElementById('badges').innerHTML = badgesHTML;
+        gapi.person.go();
+        gapi.page.go();
+        previousHash = window.location.hash;
+      }
+      updateBadges();
+
+      function pollHashChange() {
+        window.setTimeout(function () {
+          if (window.location.hash !== previousHash) {
+            updateBadges();
+          }
+          pollHashChange();
+        }, 500);
+      }
+      pollHashChange();
+    </script>
+  </body>
+</html>
