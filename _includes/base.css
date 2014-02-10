@@ -9,3 +9,7 @@ body {
 #aboutme-links img {
   vertical-align: middle;
 }
+
+#circlecount-badge {
+  border: 0;
+}
