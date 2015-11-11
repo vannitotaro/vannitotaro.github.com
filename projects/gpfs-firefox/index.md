@@ -11,7 +11,7 @@ title: Google Plus Follower Stats for Firefox
      data-href="//plus.google.com/108482122724716372904"
      data-layout="landscape" data-rel="publisher"></div>
 
-### [Install the free Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/google-plus-follower-stats/) ###
+[![Get the Firefox add-on](/img/addon-button.png)](https://addons.mozilla.org/en-US/firefox/addon/google-plus-follower-stats/)
 
 [Source code](https://github.com/vannitotaro/gpfs-firefox)
 available on GitHub.
