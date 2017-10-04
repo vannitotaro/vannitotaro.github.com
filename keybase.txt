@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/vanni
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.ingtotaro.it
+  * I am vanni (https://keybase.io/vanni) on keybase.
+  * I have a public key ASC-jJUGwVQtojLb8BmPSDcyTNUBKMQx7guYrd4pqAZdewo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120be8c9506c1542da232dbf0198f4837324cd50128c431ee0b98adde29a8065d7b0a",
+      "host": "keybase.io",
+      "kid": "0120be8c9506c1542da232dbf0198f4837324cd50128c431ee0b98adde29a8065d7b0a",
+      "uid": "31162828c5ea21bb0489ee0b5ccc6819",
+      "username": "vanni"
+    },
+    "merkle_root": {
+      "ctime": 1507160910,
+      "hash": "dacd780846d3780f23ae04d6a87883f85620aac80d74df6cb4ef4306aea7a40fb29013e3658df23270a64e4fa9d9ae229c6f069327ba653d8481a36b7b862504",
+      "hash_meta": "781782f64d344ec35b32096f8fdb0efab8ddfc219eb4a56f28ba415471cc36e7",
+      "seqno": 1503053
+    },
+    "service": {
+      "hostname": "www.ingtotaro.it",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507161160,
+  "expire_in": 504576000,
+  "prev": "cfe6e24619fee15766c2b65462892a5a9f4f6a139ed5a5b6d3a309795092b81b",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvoyVBsFULaIy2/AZj0g3MkzVASjEMe4LmK3eKagGXXsKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYmU4Yzk1MDZjMTU0MmRhMjMyZGJmMDE5OGY0ODM3MzI0Y2Q1MDEyOGM0MzFlZTBiOThhZGRlMjlhODA2NWQ3YjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmU4Yzk1MDZjMTU0MmRhMjMyZGJmMDE5OGY0ODM3MzI0Y2Q1MDEyOGM0MzFlZTBiOThhZGRlMjlhODA2NWQ3YjBhIiwidWlkIjoiMzExNjI4MjhjNWVhMjFiYjA0ODllZTBiNWNjYzY4MTkiLCJ1c2VybmFtZSI6InZhbm5pIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA3MTYwOTEwLCJoYXNoIjoiZGFjZDc4MDg0NmQzNzgwZjIzYWUwNGQ2YTg3ODgzZjg1NjIwYWFjODBkNzRkZjZjYjRlZjQzMDZhZWE3YTQwZmIyOTAxM2UzNjU4ZGYyMzI3MGE2NGU0ZmE5ZDlhZTIyOWM2ZjA2OTMyN2JhNjUzZDg0ODFhMzZiN2I4NjI1MDQiLCJoYXNoX21ldGEiOiI3ODE3ODJmNjRkMzQ0ZWMzNWIzMjA5NmY4ZmRiMGVmYWI4ZGRmYzIxOWViNGE1NmYyOGJhNDE1NDcxY2MzNmU3Iiwic2Vxbm8iOjE1MDMwNTN9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LmluZ3RvdGFyby5pdCIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDcxNjExNjAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiY2ZlNmUyNDYxOWZlZTE1NzY2YzJiNjU0NjI4OTJhNWE5ZjRmNmExMzllZDVhNWI2ZDNhMzA5Nzk1MDkyYjgxYiIsInNlcW5vIjoyMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEApsLA9sM60mSwFplcOYnymstQn7jlnrWiiUHU4nZGX+4b5safrRLiNxvjuCM+VAwxa1y5QsN3L3oKDYCCMpr8MqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgoKX2nGj17dZLup3HV24uHh4ntqWu+6iIUd2XQjvQl7SjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vanni
+
+==================================================================
